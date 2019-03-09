@@ -26,4 +26,14 @@
     <string name="forgotUsername">Forgot Username</string>
     <string name="needanaccount">Need to Create An Account</string>
     <string name="username">Username</string>
+    <string name="resetPassword">Reset Password</string>
+    <string name="newPassword">New Password</string>
+    <string name="confirmNewPassword">Confirm New Password</string>
+    <string name="lession1">Lesson 1</string>
+    <string name="Lesson2">Lesson 2</string>
+    <string name="section">Section</string>
+    <string name="Progess">Progress</string>
+    <string name="elementaryProgrming">Elementary Programming</string>
+    <string name="lesson3">Lesson 3</string>
+    <string name="homePage">HomePage</string>
 </resources>
