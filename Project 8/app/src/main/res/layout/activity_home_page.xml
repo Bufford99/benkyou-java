@@ -6,7 +6,6 @@
     android:id="@+id/container"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".HomePage"
     tools:layout_editor_absoluteY="81dp">
 
     <Button
@@ -86,6 +85,7 @@
         app:layout_constraintTop_toTopOf="parent"
         tools:text="@string/section" />
 
+
     <TextView
         android:id="@+id/text_progress"
         android:layout_width="wrap_content"
@@ -105,6 +105,7 @@
         android:id="@+id/text_elementaryProg"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+
         android:layout_marginStart="8dp"
         android:layout_marginTop="176dp"
         android:layout_marginEnd="8dp"
@@ -127,10 +128,12 @@
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="8dp"
+
         android:text="@string/homePage"
         android:textAppearance="@style/TextAppearance.AppCompat.Body1"
         android:textColor="@color/Black"
         android:textSize="32sp"
+
         app:layout_constraintBottom_toTopOf="@+id/text_progress"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -143,7 +146,6 @@
         android:layout_marginTop="40dp"
         android:layout_marginBottom="8dp"
         android:background="@color/ButtonBackground"
-        android:text="@string/lesson3"
         app:layout_constraintBottom_toTopOf="@+id/text_selection"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/text_elementaryProg" />
@@ -157,6 +159,7 @@
         android:layout_marginEnd="8dp"
         android:background="@color/ButtonBackground"
         android:text="@string/Lesson2"
+
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
@@ -170,6 +173,7 @@
         android:layout_marginTop="28dp"
         android:layout_marginEnd="8dp"
         android:background="@color/ButtonBackground"
+
         android:text="@string/lesson3"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
